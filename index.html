@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph Search App</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="graphCanvas" width="2000" height="1950"></canvas>
+    <br>
+    <label for="originNode">Origem:</label>
+    <select id="originNode"></select>
+    <label for="destinationNode">Destino:</label>
+    <select id="destinationNode"></select>
+    <br>
+    <button id="bfsButton">BL</button>
+    <button id="dfsButton">BP</button>
+    <button id="ucsButton">BCU</button>
+    <button id="greedyButton">BGME</button>
+    <button id="aStarButton">A*</button>
+    <button id="clearButton">Clear</button>
+
+    <script src="graphsearchapp.js"></script>
+
+    
+
+    <div id="resultContainer"></div>
+</body>
+</html>
