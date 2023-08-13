@@ -8,6 +8,7 @@ Search app using AI - ChatGPT for development of 5 search types:
 
 The application illustrates, in a 2d plane, 1000 nodes of origin and destination (from A to L38). The user can choose any node along with the search algorithms. 
 The output indicates the explored nodes(RED) and the traversal(GREEN).
+For the heuristic, the Euclidean distance between the nodes is considered (d = √[(x2 – x1)2 + (y2 – y1)2]) 
 
 ![graphseachappAR9](https://github.com/KelvinCV/GraphSearchApp/assets/58924692/63f28593-338f-4b6d-8e95-d0ce697677c0)
 ![graphseachappS9L38](https://github.com/KelvinCV/GraphSearchApp/assets/58924692/34ad3635-3336-4883-a230-42b0f1463da8)
